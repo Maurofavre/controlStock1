@@ -59,12 +59,13 @@
             // 
             // btnModi
             // 
-            this.btnModi.Location = new System.Drawing.Point(206, 203);
+            this.btnModi.Location = new System.Drawing.Point(183, 213);
             this.btnModi.Name = "btnModi";
             this.btnModi.Size = new System.Drawing.Size(75, 23);
             this.btnModi.TabIndex = 1;
             this.btnModi.Text = "Modificar";
             this.btnModi.UseVisualStyleBackColor = true;
+            this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
             // 
             // btnConect
             // 
@@ -74,6 +75,7 @@
             this.btnConect.TabIndex = 2;
             this.btnConect.Text = "Conexion DB";
             this.btnConect.UseVisualStyleBackColor = true;
+            this.btnConect.Click += new System.EventHandler(this.btnConect_Click);
             // 
             // textBox1
             // 
@@ -105,7 +107,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(466, 203);
+            this.button2.Location = new System.Drawing.Point(471, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
@@ -183,7 +185,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(330, 203);
+            this.btnAgregar.Location = new System.Drawing.Point(320, 213);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 16;
